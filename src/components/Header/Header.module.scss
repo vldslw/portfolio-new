@@ -1,0 +1,41 @@
+.header {
+  padding: 25px 60px 25px 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-family: "Sofia Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.header__link {
+  margin: 0 0 0 50px;
+  font-family: "Golos Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1282px) {
+  .header {
+    padding: 25px 120px 25px 145px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .header {
+    justify-content: center;
+  }
+  .header__nav {
+    display: none;
+  }
+}

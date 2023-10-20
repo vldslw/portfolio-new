@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Golos Text"; /* для абзацев */
+  font-style: normal;
+  font-weight: 400;
+  src: url(./GolosText-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sofia Sans"; /* заголовки */
+  font-style: normal;
+  font-weight: 700;
+  src: url(./SofiaSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sofia Sans"; /* заголовки */
+  font-style: normal;
+  font-weight: 900;
+  src: url(./SofiaSans-Black.ttf) format("truetype");
+}
