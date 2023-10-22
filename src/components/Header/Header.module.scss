@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.header {
+  padding: 25px 60px 25px 45px;
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    @include subtitle-font;
+  }
+  &__link {
+    @include text-font;
+    margin: 0 0 0 50px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (min-width: 1282px) {
+  .header {
+    padding: 25px 120px 25px 145px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .header {
+    justify-content: center;
+    &__nav {
+      display: none;
+    }
+  }
+}
