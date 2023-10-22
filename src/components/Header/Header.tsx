@@ -11,7 +11,7 @@ export const Header = () => {
         }}
         className={styles.header__logo}
       >
-        vldslw.
+        vldslw
       </Link>
       <nav className={styles.header__nav}>
         <a href="#stack" className={styles.header__link}>
